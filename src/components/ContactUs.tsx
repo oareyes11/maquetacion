@@ -4,10 +4,10 @@ export const ContactUs = () => {
   return (
     <>
       <div className="w-full flex items-center justify-center h-[821px] bg-bg-family bg-cover">
-        <div className="container flex flex-col justify-center w-[330px] md:w-[1050px] h-[672px]">
-          <h5 className="font-bold">Contact Us</h5>
+        <div className="container flex flex-col justify-center items-center xl:items-start w-[330px] md:w-[1050px]  h-[672px]">
+          <h5 className="font-bold w-full md:text-center">Contact Us</h5>
           <h2 className="font-bold text-[40px]">Make an Appointment</h2>
-          <div className="w-full md:w-[602px] grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="w-full md:w-[602px]  grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="w-full">
               <input
                 className="w-full bg-gray-200 border border-gray-300 p-2 rounded"

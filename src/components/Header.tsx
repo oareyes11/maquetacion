@@ -3,9 +3,16 @@ import { Button } from "./Button";
 export const Header = () => {
   return (
     <>
+      <div className="w-full flex absolute">
+        <div className="w-[50px] h-[50px] md:hidden xs:block bg-red-500">XS</div>
+        <div className="w-[50px] h-[50px] hidden xs:hidden sm:block md:hidden bg-green-500">SM</div>
+        <div className="w-[50px] h-[50px] hidden md:block xs:hidden sm:hidden lg:hidden bg-orange-500">MD</div>
+        <div className="w-[50px] h-[50px] hidden lg:block xs:hidden sm:hidden md:hidden xl:hidden bg-purple-500">LG</div>
+        <div className="w-[50px] h-[50px] hidden xl:block bg-yellow-500">XL</div>
+      </div>
       <div className="w-full h-[1226px] md:h-[823px] flex flex-col items-center  bg-bg-header bg-cover">
-        <div className="w-full md:w-[1322px] h-[104px]  "></div>
-        <div className="w-full md:w-[1322px] h-full flex justify-center ">
+        <div className="w-full md:w-full h-[104px]  "></div>
+        <div className="w-full md:w-full h-full flex justify-center ">
           <div className="w-full w-[1050px] h-full flex flex-col items-center md:grid  md:grid-cols-2 gap-4 ">
             <div className="flex items-center justify-center">
               <div className="p-4 flex justify-center gap-y-4 flex flex-col ">

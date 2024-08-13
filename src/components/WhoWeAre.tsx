@@ -1,9 +1,9 @@
 export const WhoWeAre = () => {
   return (
     <>
-      <div className="mt-[900px] lg:mt-1 w-full h-[700px] flex items-center justify-center flex-col">
+      <div className="mt-[100px] w-full h-[700px] flex items-center justify-center flex-col">
       <div className="absolute w-full flex justify-center">
-        <div className="container w-[330px] md:w-[1050px] gap-y-4 flex flex-col justify-center items-cener ">
+        <div className="container w-[330px]  md:w-[600px] lg:w-[1050px] gap-y-4 flex flex-col justify-center items-cener ">
           <h1 className="font-bold text-4xl text-center">Who We Are</h1>
           <div className="flex flex-col">
             <p className="text-center text-grayPrimary">

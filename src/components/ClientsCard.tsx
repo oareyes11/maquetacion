@@ -1,7 +1,7 @@
 export const ClientsCard = () => {
   return (
     <>
-      <div className="flex items-center justify-center  w-[329px] h-full bg-white rounded-lg">
+      <div className="flex items-center justify-center  w-[329px] h-[229px] bg-white rounded-lg">
         <div className="w-[257px] h-[184px] flex flex-col justify-around ">
           <div className="flex">
             <img className="w-5" src="./src/assets/star.png" alt="start" />
